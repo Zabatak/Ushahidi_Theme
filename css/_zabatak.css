@@ -1,0 +1,332 @@
+
+@font-face{font-family:'UthmanTNBold';src:url(../fonts/UthmanTN1Bv9.otf);font-weight:normal;font-style:normal;}
+@font-face{font-family:'Vogel';src:url(../fonts/vogel.otf);font-weight:normal;font-style:normal;}
+@font-face{font-family:'UthmanTNBold';src:url(../fonts/UthmanTN1Bv9.otf);font-weight:normal;font-style:normal;}
+@font-face{font-family:'GESSTwoMedium';src:url(../fonts/GESSTwoMedium.otf);font-weight:normal;font-style:normal;}
+@font-face{font-family:'HacenTunisiaLt';src:url(../fonts/HacenTunisiaLt.otf);font-weight:normal;font-style:normal;}
+@font-face{font-family:'HacenBeirutMd';src:url(../fonts/HacenBeirutMd.otf);font-weight:normal;font-style:normal;}
+
+input, select, textarea{
+    font-family: Tahoma;
+}
+
+h1, h2, h3,h4,h5,h6, .title, label, input.submit, .fonty li a, #mainmenu  a, fancy{
+    font-family: GESSTwoMedium; 
+    font-weight: normal !important; 
+}
+
+
+
+
+/* map */
+div.map {
+    border: #999 1px solid;
+    height: 300px;
+    position:relative;
+}
+
+
+#mapStatus {
+    float: left;
+    background-color: #404040;
+    border-left: solid 1px #999;
+    border-right: solid 1px #999;
+    border-bottom: solid 1px #999;
+    font-size: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+/* menu */
+div#middle{
+    background: #fff;
+}
+div#mainmenu {
+    border: 0px;
+    padding: 7px 10px;
+    margin: 0px -10px 0px -10px;
+    font-size: 16px;
+}
+
+div#mainmenu li {
+    float: right;
+    display: block;
+    margin-right: 15px;
+}
+
+
+/*
+background-light: #C49158
+background-dark: #00371A
+
+*/
+
+
+#copyright{
+    padding: 10px;
+    color: white;
+}
+
+header {
+    height: 0px;
+}
+
+#header {
+    position: relative;
+    height: 158px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../images/zabatak-bg.png);
+    background-repeat: no-repeat;
+    background-position: 8px 130%;
+}
+
+#mainmiddle, #content{
+    direction: rtl;
+}
+
+.report_left {
+    float: right;
+    width: 450px;
+    margin: 20px 0 0;
+    padding: 0 0 10px;
+}
+.btn_submit{   float: left;}
+.long2{float: right;}
+#how-to-report-menu-toggle { right: 700px;}
+#how-to-report-box { right: 701px;}
+#accordion .ui-accordion-header .small-link-button {right: inherit; left: 0px}
+.ui-accordion .ui-accordion-header a {font-weight: normal;}
+.step-1 {float: right;}
+.step-2-holder {float: left;}
+.step-1  h2 , .step-2-holder h2  {direction: ltr; text-align: right;}
+h2 strong {font-weight: normal; padding: 0 2px }
+.step-2, .step-3 {margin: 20px 0 0;}
+.step-2 .box label span, .step-2 .box label input{float: right; text-align: right; direction: ltr;}
+.step-2 .box label {font: 12px/15px Tahoma, Arial, Helvetica, sans-serif;}
+div.submit-incident a:hover, .btn_submit:hover, div.search-form input.searchbtn, div#mainmenu ul li a:hover, div#mainmenu a.active {    background-color: #C49158;}
+header, #top-bar{display: none}
+div.content-container {padding: 0 10px 0;}
+
+p.r_date { left: 103px; right: inherit;}
+#rb_list-view .rb_report {overflow: hidden;}
+.hover a.btn-more {display: none;}
+
+#block-reports .rb_report {
+    background: white;
+    direction: rtl;
+    text-align: right;
+    width: 380px;
+    padding: 5px 10px;
+    margin-bottom: 10px; 
+}
+#block-reports .r_details{ width: 100%;}
+#block-reports .r_details h3 { width: 100%;}
+#block-reports .r_comments{}
+.r_comments {font-family: Tahomal}
+#block-reports .r_details h3 a.r_title {font-size: 12px;}
+#block-reports  div.r_description { margin-bottom: 5px;width: 100%;}
+#block-reports p.r_date {left: 0px;}
+
+
+/** BLOCKS **/
+
+.stat{
+    background: none repeat scroll 0 0 #00361A;
+    border: 1px solid #FFFFFF;
+    color: #C49158;
+    float: right;
+    font-family: Helvetica,Verdana,sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 27%;
+}
+
+
+.stat span {
+    clear: both;
+    color: #C49158;
+    display: block;
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+
+.submit_car a, .submit_car a:hover {
+    background-color: red;
+    background-image: url("../images/submit-incident.png");
+    background-position: 10px 8px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 10px 8px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#cars-campaign{
+    clear: both;
+}
+table.table-list tbody tr td a {
+    font-size: 12px;
+    font-family: GESSTwoMedium; 
+    font-weight: normal !important; 
+}
+
+a:hover {
+    color: #00371A;
+    text-decoration: none;
+}
+
+div#logo {
+    border: 0;
+    background: #00371A;
+    float: left;
+    padding: 14px 0 0 0;
+    width: 374px;
+    height: 100px;
+    background: url(../images/logo.png) no-repeat;
+    background-position: 0px;
+}
+
+input, select, textarea {
+    font-family: Tahoma;
+    padding: 4px;
+}
+
+#reachus .stat {
+    background: none repeat scroll 0 0 #00361A;
+    border: 1px solid white;
+    color: #C49158;
+    float: right;
+    font-family: Helvetica,Verdana,sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 35px;
+}
+
+/* social */
+#facebook, #twitter, #youtube, #rss{ width: 32px; height: 32px; float: right}
+#facebook{background: url(../images/facebook.png) no-repeat;}
+#twitter{background: url(../images/twitter.png) no-repeat;}
+#youtube{background: url(../images/you_tube.png) no-repeat;}
+#rss{background: url(../images/rss.png) no-repeat;}
+
+#press-logos img{
+    width: inherit;
+    float: left;
+    padding: 4px;
+    margin: 4px;
+}
+
+
+#press-logos{
+    margin-top:  20px;
+}
+
+.report_detail{
+    direction: rtl;
+}
+
+.left-col h1.report-title {
+    float: left;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    left: inherit;
+    padding: 5px;
+    border: 7px solid white;
+    background: #C49158;
+    color: white;
+}
+
+.report_detail .r_verified {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    right: inherit;
+}
+
+
+div.report-additional-reports h4 {
+    position: absolute;
+    float: left;
+    top: -18px;
+    left: -18px;
+    padding: 5px;
+    border: 7px solid white;
+    background: #529BF5;
+    color: white;
+}
+
+div.report-additional-reports h4 {
+    position: absolute;
+    float: left;
+    top: -18px;
+    right: 10px;
+    left: inherit;
+    padding: 5px;
+    border: 7px solid white;
+    background: #C49158;
+    color: white;
+}
+
+div.content-block img {
+    width: inherit;
+    padding: 5px;
+    float: left;
+}
+
+
+.report_category {
+    clear: both;
+    overflow: hidden;
+    font-size: 90%;
+    direction: ltr;
+    margin-left: 30px;
+}
+
+a.filter-button:hover {
+    text-decoration: none;
+    background: #C49158;
+}
+
+article header{
+    display: inline;
+}
+
+#facebook-share, #twitter-share{
+    float:left; 
+}
+
+.comment-block{
+    clear:both;
+}
+
+
+#filter-menu-toggle {
+    position: relative;
+    top: 20px;
+    right: 58px;
+    width: 120px;
+}
+
+
+.report_row .date-box {
+    float: right;
+    margin-left: 10px;
+}
+
+
+.report_row .time {
+    float: right;
+}
+
+
+.hint{
+    color: brown;
+    padding: 4px;
+}

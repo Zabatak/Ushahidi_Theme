@@ -1,0 +1,191 @@
+/*------------------------------------*\
+        RESET
+\*------------------------------------*/
+/*
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+        margin:0;
+        padding:0;
+}
+table{
+        border-collapse:collapse;
+        border-spacing:0;
+}
+fieldset,img{ 
+        border:0;
+}
+address,caption,cite,dfn,th,var{
+        font-style:normal;
+        font-weight:normal;
+}
+caption,th{
+        text-align:left;
+}
+
+abbr,acronym{
+        border:0;
+}
+*/
+
+
+
+
+/*------------------------------------*\
+        MAIN
+\*------------------------------------*/
+/*
+html{
+        font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+        background:#e4e3d5;
+        color:#666;
+        height:101%;
+}
+body{
+        width:940px;
+        padding:75px 10px;
+        margin:0 auto;
+        background:#fff;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+        TYPE
+\*------------------------------------*/
+
+div#mainmenu ul li a:hover,
+div#mainmenu a.active { background-color:#d25e4f; }
+
+.h1,.h2, div#mainmenu, .content-blocks h5{
+    clear:both;
+    position:relative;
+    color:#fff;
+    background:#1a5333;
+    /*text-shadow:0 -1px #0c3e22, 0 1px #0c3e22;*/
+}
+.h1{
+    font-size:2em;
+    text-align:center;
+    margin:0 -20px 50px -20px;
+    padding:20px 0;
+
+    -moz-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    box-shadow:0 2px 0 rgba(0,0,0,0.1);
+}
+.h1:before,
+.h1:after,
+.h2:before,
+div#mainmenu:before,
+.content-blocks h5:before{
+    content:" ";
+    background:url(../images/ribbon.png);
+    display:block;
+    width:10px;
+    height:10px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-bottom:-10px;
+    z-index:-1;
+}
+.h1:after, div#mainmenu:after{
+    content:" ";
+    background:url(../images/ribbon-2.png);
+    right:0;
+    left:auto;
+}
+.h2, .content-blocks h5{
+    font-size:1.5em;
+    float:left;
+    padding:10px 10px 10px 20px;
+    margin-left:-20px;
+    margin-bottom:20px;
+
+    -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+.h2.right, .content-blocks h5.right{
+    float:right;
+    padding:10px 20px 10px 10px;
+    margin-right:-20px;
+
+    -moz-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:-2px 2px 0 rgba(0,0,0,0.1);
+}
+.h2.right:before{
+    background:url(../images/ribbon-2.png);
+    right:0;
+    left:auto;
+}
+
+
+
+/* TOP MENU*/
+#top-menu h1{
+    clear:both;
+    position:relative;
+    color:#fff;
+    background:#1a5333;
+    /*text-shadow:0 -1px #d0284b, 0 1px #f96080;*/
+    height: 25px;
+}
+
+#top-menu  h1{
+    font-size:1.6em;
+    text-align:center;
+    margin:0 -10px 0px -10px;
+    padding:12px 0;
+
+    -moz-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:0 2px 0 rgba(0,0,0,0.1);
+    box-shadow:0 2px 0 rgba(0,0,0,0.1);
+}
+
+#top-menu  h1:before, #top-menu  h1:after {
+
+    top: 100%;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+    border-style: solid;
+    border-width: 5px; 
+}
+
+
+
+#top-menu  h1:before {  border-color:  #1a5333 #1a5333 transparent transparent  ;  left: 0}    
+#top-menu  h1:after{   border-color: #1a5333 transparent  transparent #1a5333;  right:0;}
+
+#top-menu h1 a.active { background-color:#C49158;  color: #fff}
+#top-menu h1 ul li a:hover{ background-color:#00371A;  color: #fff}
+#top-menu  h1 ul li { margin:0 8px 0 0; display: inline-block; float: right;}
+#top-menu h1 ul li a { padding:3px 5px; -moz-border-radius: 3px; -webkit-border-radius: 3px; color: #fff}
+
+
+
+.report-additional-reports p.r_date {
+    left: 0px;
+    top: 28px;
+}
+
+div.report-additional-reports h5 {
+    font-size: 12px;
+    margin: 4px 0px 2px 0;
+    font-family: inherit;
+}
+
+div.report-additional-reports  .r_location {
+    background: transparent url(../images/icon_sprite.png) 101% -163px no-repeat;
+}
