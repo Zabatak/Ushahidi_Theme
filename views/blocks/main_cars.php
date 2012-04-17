@@ -48,9 +48,9 @@
                         <tr>
                             <td colspan="2">
                                 <a href="http://slideme.org/application/zabatak-0" target="_blank">
-                                    <img src="<?php echo url::site(); ?>themes/zabatak/images/android-market-download-button.png" ?>" title="Android App" />
+                                    <img src="<?php echo url::site(); ?>themes/zabatak/images/android-market-download-button.png" title="Android App" />
                                 </a>
-                                <img src="<?php echo url::site(); ?>themes/zabatak/images/ios-download-button.png" ?>" title="iOS comming soon" />
+                                <img src="<?php echo url::site(); ?>themes/zabatak/images/ios-download-button.png" title="iOS comming soon" />
                             </td>
                         </tr>
                     </table>

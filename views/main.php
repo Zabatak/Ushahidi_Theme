@@ -39,7 +39,7 @@
                     <h3><?php echo Kohana::lang('ui_main.category'); ?></h3>
 
                     <ul id="category_switch" class="category-filters">
-                        <li><a class="active" id="cat_0" href="#"><span class="swatch" style="background-color:<?php echo "#" . $default_map_all; ?>"></span><span class="category-title"><?php echo Kohana::lang('ui_main.all_categories'); ?></span></a></li>
+                        <li><a class="active" id="cat_0" href="#"><span class="swatch" style="background-color:<?php echo "#" . $default_map_all;?>" ></span><span class="category-title"><?php echo Kohana::lang('ui_main.all_categories'); ?></span></a></li>
                         <?php
                         foreach ($categories as $category => $category_info) {
                             $category_title = $category_info[0];
@@ -260,57 +260,57 @@
         <h5 class="right">قالوا عنا</h5>
 
         <table class="table-list"><tr><td>
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/3in_logo.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/acutimes.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/al masry al youm_logo.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/cbc_logo.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/3in_logo.jpg" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/acutimes.jpg"  />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/al masry al youm_logo.jpg"  />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/cbc_logo.jpg"  />
         
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/al rahma_logo.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/al rahma_logo.jpg"  />
         
         <a title="برنامج عز الشباب" href="https://www.youtube.com/watch?v=s5kiRSBTvSQ&feature=BFa&list=PL56CBED9A80EC8CE8&lf=mh_lolz">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/ezz elshabab_logo.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/ezz elshabab_logo.jpg"  />
 		</a>
 		<a title="Mashallah News" href="http://blog.zabatak.com/zabatak-in-mashallanews/">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/Mashallah_Logo.png" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/Mashallah_Logo.png"  />
 		</a>
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/misr25_logo.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/youm7_logo.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/misr25_logo.jpg"  />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/youm7_logo.jpg"  />
 		
         <a title="ON TV" href="https://www.youtube.com/watch?v=9--arSWItyc&feature=BFa&list=PL56CBED9A80EC8CE8&lf=mh_lolz">
-		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/on_tv_logo.png" ?>" />
+		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/on_tv_logo.png"  />
 		</a>
 		
 		<a title="TedXTanta" href="https://www.youtube.com/watch?v=3FQyRsx-dNY&feature=BFa&list=PL56CBED9A80EC8CE8&lf=mh_lolz">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/TEDxTanta_logo.png" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/TEDxTanta_logo.png"  />
 		</a>
         
         
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/Cairo_ICT_logo.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/eed_logo.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/Cairo_ICT_logo.jpg"  />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/eed_logo.jpg"  />
         
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/190328_10150113049035838_590230837_6591559_6632911_n.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/190328_10150113049035838_590230837_6591559_6632911_n.jpg"  />
         <a title="الجزيرة مباشر" href="http://www.youtube.com/watch?v=tQ8mcxquKDE&list=PL56CBED9A80EC8CE8">
-		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/aljazeera_mu_logo.jpg" ?>" />
+		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/aljazeera_mu_logo.jpg"  />
 		</a>
 		
 		<a title="قناة روتانا مصرية" href="http://www.youtube.com/watch?v=SKo_9QhJ_AU&context=C3076065ADOEgsToPDskIa9Ors_AiyuvTWDs-MsQNu">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/big-masriya.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/big-masriya.jpg"  />
 		</a>
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/imagesCA5Y7QXC.jpg" ?>" />
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/m.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/imagesCA5Y7QXC.jpg"  />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/m.jpg"  />
 		<a title="قناة النيل الثقافية" href="http://www.youtube.com/watch?v=yDxIc1744LY">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/nile_sakafia.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/nile_sakafia.jpg"  />
 		</a>
         <a title="برنامج العاشرة مساءا" href="http://www.youtube.com/watch?v=g7q-5Rdb-Uc">
-		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/P6O55772.jpg" ?>" />
+		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/P6O55772.jpg"  />
 		</a>
 		
 		<a title="قناة التحرير" href="http://www.youtube.com/watch?list=PL56CBED9A80EC8CE8&feature=player_detailpage&v=ynTsnNPuWu0#t=6275s">
-        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/t_2.jpg" ?>" />
+        <img src="<?php echo url::site(); ?>themes/zabatak/images/logos/t_2.jpg"  />
 		</a>
 		
 		<a title="جريدة الحرية والعدالة" href="http://blog.zabatak.com/%d8%b8%d8%a8%d8%b7%d9%83-%d9%81%d9%8a-%d8%a7%d9%84%d8%ad%d8%b1%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%b9%d8%af%d8%a7%d9%84%d8%a9/">
-		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/horya.jpg" ?>" />
+		<img src="<?php echo url::site(); ?>themes/zabatak/images/logos/horya.jpg"  />
 		</a>
 		
         
